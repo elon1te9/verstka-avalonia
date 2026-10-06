@@ -1,0 +1,67 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Verstka.MainPage"
+        Title="Project Studio"
+        Width="1200" Height="760"
+        MinWidth="1100" MinHeight="650"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Styles>
+        <Style Selector="Button.nav">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Left" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="16,12" />
+        </Style>
+
+        <Style Selector="Button.nav.active">
+            <Setter Property="Background" Value="{DynamicResource NavSelectedBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource NavSelectedTextBrush}" />
+        </Style>
+
+    </Window.Styles>
+
+    <Grid ColumnDefinitions="210,*">
+        <Border Padding="12,22,12,16"
+                Background="{DynamicResource SidebarBrush}"
+                BorderBrush="{DynamicResource BorderBrush}"
+                BorderThickness="0,0,1,0">
+
+            <Grid RowDefinitions="*,Auto">
+                <StackPanel x:Name="NavigationPanel" Spacing="8">
+                    <Button Classes="nav active" Content="Обзор"
+                            Tag="Обзор" Click="Navigate_Click" />
+                    <Button Classes="nav" Content="Проекты"
+                            Tag="Проекты" Click="Navigate_Click" />
+                    <Button Classes="nav" Content="Задачи"
+                            Tag="Задачи" Click="Navigate_Click" />
+                    <Button Classes="nav" Content="Календарь"
+                            Tag="Календарь" Click="Navigate_Click" />
+                    <Button Classes="nav" Content="Команда"
+                            Tag="Команда" Click="Navigate_Click" />
+                    <Button Classes="nav" Content="Настройки"
+                            Tag="Настройки" Click="Navigate_Click" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="1">
+                    <Button x:Name="ProfileButton"
+                            Classes="nav"
+                            Content="Пользователь"
+                            Tag="Личный кабинет"
+                            Click="Navigate_Click" />
+
+                    <Button Classes="nav"
+                            Content="← Выйти"
+                            Click="Logout_Click" />
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <ContentControl x:Name="PageContent"
+                        Grid.Column="1"
+                        HorizontalContentAlignment="Stretch"
+                        VerticalContentAlignment="Stretch" />
+    </Grid>
+</Window>
+

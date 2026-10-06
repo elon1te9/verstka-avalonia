@@ -1,0 +1,131 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:primitives="clr-namespace:Avalonia.Controls.Primitives;assembly=Avalonia.Controls"
+             x:Class="Verstka.Pages.CalendarPage">
+
+    <UserControl.Styles>
+        <Style Selector="Border.selected-day">
+            <Setter Property="Background" Value="{DynamicResource PrimaryBrush}" />
+        </Style>
+
+        <Style Selector="TextBlock.selected-day-text">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+
+        <Style Selector="TextBlock.calendar-day">
+            <Setter Property="Width" Value="34" />
+            <Setter Property="Height" Value="34" />
+            <Setter Property="Padding" Value="0,7,0,0" />
+            <Setter Property="TextAlignment" Value="Center" />
+        </Style>
+    </UserControl.Styles>
+
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+        <StackPanel Margin="28" Spacing="14" MaxWidth="1120" HorizontalAlignment="Stretch">
+            <TextBlock Classes="heading" Text="Календарь" />
+            <Grid ColumnDefinitions="350,*" Margin="0,6,0,0">
+                <Border Classes="card" Margin="0,0,16,0" VerticalAlignment="Top">
+                    <StackPanel Spacing="10">
+                        <TextBlock Classes="section" Text="Календарь" />
+                        <StackPanel Width="294"
+                                    Spacing="8"
+                                    HorizontalAlignment="Center">
+
+                            <Grid ColumnDefinitions="Auto,*,Auto">
+                                <TextBlock Text="‹"
+                                           FontSize="20"
+                                           VerticalAlignment="Center" />
+
+                                <TextBlock Grid.Column="1"
+                                           Text="Октябрь 2026 г."
+                                           FontWeight="SemiBold"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center" />
+
+                                <TextBlock Grid.Column="2"
+                                           Text="›"
+                                           FontSize="20"
+                                           VerticalAlignment="Center" />
+                            </Grid>
+
+                            <primitives:UniformGrid Columns="7">
+                                <TextBlock Classes="muted" Text="Пн" FontSize="12" HorizontalAlignment="Center" />
+                                <TextBlock Classes="muted" Text="Вт" FontSize="12" HorizontalAlignment="Center" />
+                                <TextBlock Classes="muted" Text="Ср" FontSize="12" HorizontalAlignment="Center" />
+                                <TextBlock Classes="muted" Text="Чт" FontSize="12" HorizontalAlignment="Center" />
+                                <TextBlock Classes="muted" Text="Пт" FontSize="12" HorizontalAlignment="Center" />
+                                <TextBlock Classes="muted" Text="Сб" FontSize="12" HorizontalAlignment="Center" />
+                                <TextBlock Classes="muted" Text="Вс" FontSize="12" HorizontalAlignment="Center" />
+                            </primitives:UniformGrid>
+
+                            <primitives:UniformGrid Columns="7">
+                                <Border Width="34" Height="34" />
+                                <Border Width="34" Height="34" />
+                                <Border Width="34" Height="34" />
+
+                                <TextBlock Classes="calendar-day" Text="1" />
+                                <TextBlock Classes="calendar-day" Text="2" />
+                                <TextBlock Classes="calendar-day" Text="3" />
+                                <TextBlock Classes="calendar-day" Text="4" />
+                                <TextBlock Classes="calendar-day" Text="5" />
+
+                                <Border Classes="selected-day"
+                                        Width="34"
+                                        Height="25"
+                                        CornerRadius="9"
+                                        HorizontalAlignment="Center">
+                                    <TextBlock Classes="selected-day-text"
+                                               Text="6"
+                                               HorizontalAlignment="Center"
+                                               VerticalAlignment="Center" />
+                                </Border>
+
+                                <TextBlock Classes="calendar-day" Text="7" />
+                                <TextBlock Classes="calendar-day" Text="8" />
+                                <TextBlock Classes="calendar-day" Text="9" />
+                                <TextBlock Classes="calendar-day" Text="10" />
+                                <TextBlock Classes="calendar-day" Text="11" />
+                                <TextBlock Classes="calendar-day" Text="12" />
+                                <TextBlock Classes="calendar-day" Text="13" />
+                                <TextBlock Classes="calendar-day" Text="14" />
+                                <TextBlock Classes="calendar-day" Text="15" />
+                                <TextBlock Classes="calendar-day" Text="16" />
+                                <TextBlock Classes="calendar-day" Text="17" />
+                                <TextBlock Classes="calendar-day" Text="18" />
+                                <TextBlock Classes="calendar-day" Text="19" />
+                                <TextBlock Classes="calendar-day" Text="20" />
+                                <TextBlock Classes="calendar-day" Text="21" />
+                                <TextBlock Classes="calendar-day" Text="22" />
+                                <TextBlock Classes="calendar-day" Text="23" />
+                                <TextBlock Classes="calendar-day" Text="24" />
+                                <TextBlock Classes="calendar-day" Text="25" />
+                                <TextBlock Classes="calendar-day" Text="26" />
+                                <TextBlock Classes="calendar-day" Text="27" />
+                                <TextBlock Classes="calendar-day" Text="28" />
+                                <TextBlock Classes="calendar-day" Text="29" />
+                                <TextBlock Classes="calendar-day" Text="30" />
+                                <TextBlock Classes="calendar-day" Text="31" />
+
+                                <Border Width="34" Height="34" />
+                            </primitives:UniformGrid>
+
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1" Classes="card" VerticalAlignment="Top">
+                    <StackPanel Spacing="14">
+                        <TextBlock Classes="section" Text="6 октября 2026" />
+                        <Border Height="1" Background="{DynamicResource BorderBrush}" />
+                        <Border CornerRadius="5" Padding="8,3" HorizontalAlignment="Left" Background="{DynamicResource PrimarySoftBrush}">
+                            <TextBlock Text="Команда"  FontSize="12" Foreground="{DynamicResource PrimaryBrush}"/>
+                        </Border>
+                        <TextBlock Text="Обсудить текущие проекты" TextWrapping="Wrap" />
+                        <TextBlock Classes="muted" Text="10:00 — 10:30" FontSize="12" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

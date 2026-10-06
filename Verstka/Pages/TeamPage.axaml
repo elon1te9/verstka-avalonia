@@ -1,0 +1,56 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Verstka.Pages.TeamPage">
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+        <StackPanel Margin="28" Spacing="14" MaxWidth="1120" HorizontalAlignment="Stretch">
+            <TextBlock Classes="heading" Text="Команда" />
+            <Border Classes="card" Margin="0,6,0,0">
+                <StackPanel Spacing="13">
+                    <TextBlock Classes="section" Text="Участники команды" />
+                    <Grid ColumnDefinitions="Auto,*,Auto" Margin="0,3">
+                        <Border Background="{DynamicResource PrimarySoftBrush}" Width="44" Height="44" CornerRadius="12">
+                            <TextBlock Foreground="{DynamicResource PrimaryBrush}" Text="АС" FontSize="16"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <StackPanel Grid.Column="1" Spacing="4" Margin="14,0" VerticalAlignment="Center">
+                            <TextBlock Text="Анна Смирнова" TextWrapping="Wrap" />
+                            <TextBlock Classes="muted" Text="Дизайнер" FontSize="12" />
+                        </StackPanel>
+                        <Border Grid.Column="2" CornerRadius="5" Padding="8,3" VerticalAlignment="Center" Background="{DynamicResource PrimarySoftBrush}">
+                            <TextBlock Text="Дизайн"  FontSize="12" Foreground="{DynamicResource PrimaryBrush}"/>
+                        </Border>
+                    </Grid>
+                    <Border Height="1" Background="{DynamicResource BorderBrush}" />
+                    <Grid ColumnDefinitions="Auto,*,Auto" Margin="0,3">
+                        <Border Background="{DynamicResource PrimarySoftBrush}" Width="44" Height="44" CornerRadius="12">
+                            <TextBlock Foreground="{DynamicResource PrimaryBrush}" Text="МС" FontSize="16"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <StackPanel Grid.Column="1" Spacing="4" Margin="14,0" VerticalAlignment="Center">
+                            <TextBlock Text="Михаил Соколов" TextWrapping="Wrap" />
+                            <TextBlock Classes="muted" Text="Разработчик" FontSize="12" />
+                        </StackPanel>
+                        <Border Grid.Column="2" CornerRadius="5" Padding="8,3" VerticalAlignment="Center" Background="{DynamicResource InfoSoftBrush}">
+                            <TextBlock Text="Разработка"  FontSize="12" Foreground="{DynamicResource InfoBrush}"/>
+                        </Border>
+                    </Grid>
+                    <Border Height="1" Background="{DynamicResource BorderBrush}" />
+                    <Grid ColumnDefinitions="Auto,*,Auto" Margin="0,3">
+                        <Border Background="{DynamicResource PrimarySoftBrush}" Width="44" Height="44" CornerRadius="12">
+                            <TextBlock Foreground="{DynamicResource PrimaryBrush}" Text="МК" FontSize="16"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <StackPanel Grid.Column="1" Spacing="4" Margin="14,0" VerticalAlignment="Center">
+                            <TextBlock Text="Мария Кузнецова" TextWrapping="Wrap" />
+                            <TextBlock Classes="muted" Text="Менеджер проекта" FontSize="12" />
+                        </StackPanel>
+                        <Border Grid.Column="2" CornerRadius="5" Padding="8,3" VerticalAlignment="Center" Background="{DynamicResource SuccessSoftBrush}">
+                            <TextBlock Text="Маркетинг"  FontSize="12" Foreground="{DynamicResource SuccessBrush}"/>
+                        </Border>
+                    </Grid>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
+

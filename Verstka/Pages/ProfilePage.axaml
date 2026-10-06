@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Verstka.Pages.ProfilePage">
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+        <StackPanel Margin="28" Spacing="14" MaxWidth="1120" HorizontalAlignment="Stretch">
+            <TextBlock Classes="heading" Text="Личный кабинет" />
+            <Border Classes="card" Margin="0,6,0,0">
+                <StackPanel Spacing="16">
+                    <TextBlock Classes="section" Text="Ваш профиль" />
+                    <Grid ColumnDefinitions="Auto,*">
+                        <Border Background="{DynamicResource PrimarySoftBrush}" Width="64" Height="64" CornerRadius="16">
+                            <TextBlock x:Name="AvatarText" Foreground="{DynamicResource PrimaryBrush}" FontSize="28"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <StackPanel Grid.Column="1" Spacing="6" Margin="16,0" VerticalAlignment="Center">
+                            <TextBlock x:Name="ProfileNameText" TextWrapping="Wrap" />
+                            <TextBlock Classes="muted" Text="Участник команды" FontSize="12" />
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
+

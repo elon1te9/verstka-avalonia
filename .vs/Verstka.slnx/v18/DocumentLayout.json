@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\study4\\verstka\\Verstka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\mainpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\mainpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\overviewpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\overviewpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\programming_programs\\VSCommunity\\Product\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\calendarpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\calendarpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\teampage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\teampage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\teampage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\teampage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\taskspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\taskspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\settingspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\settingspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\projectspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\projectspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\profilepage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\profilepage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\profilepage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\profilepage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\pages\\calendarpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\pages\\calendarpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\verstka.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\verstka.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|d:\\study4\\verstka\\verstka\\verstka\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8254C1EA-BB23-5180-079F-AC67098187B5}|Verstka\\Verstka.csproj|solutionrelative:verstka\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "D:\\programming_programs\\VSCommunity\\Product\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\programming_programs\\VSCommunity\\Product\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "D:\\programming_programs\\VSCommunity\\Product\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\programming_programs\\VSCommunity\\Product\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAFEVAAAAAAAAAADwv2IVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-06T09:54:36.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeamPage.axaml.cs",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\TeamPage.axaml.cs",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\TeamPage.axaml.cs",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\TeamPage.axaml.cs",
+              "RelativeToolTip": "Verstka\\Pages\\TeamPage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T09:14:35.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeamPage.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\TeamPage.axaml",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\TeamPage.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\TeamPage.axaml",
+              "RelativeToolTip": "Verstka\\Pages\\TeamPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T08:52:05.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\MainPage.axaml",
+              "RelativeDocumentMoniker": "Verstka\\MainPage.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\MainPage.axaml",
+              "RelativeToolTip": "Verstka\\MainPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T08:51:41.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Verstka\\MainWindow.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\MainWindow.axaml",
+              "RelativeToolTip": "Verstka\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T05:50:42.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OverviewPage.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\OverviewPage.axaml",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\OverviewPage.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\OverviewPage.axaml",
+              "RelativeToolTip": "Verstka\\Pages\\OverviewPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T07:31:05.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TasksPage.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\TasksPage.axaml",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\TasksPage.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\TasksPage.axaml",
+              "RelativeToolTip": "Verstka\\Pages\\TasksPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T09:13:02.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalendarPage.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\CalendarPage.axaml",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\CalendarPage.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\CalendarPage.axaml",
+              "RelativeToolTip": "Verstka\\Pages\\CalendarPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T08:51:36.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SettingsPage.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\SettingsPage.axaml",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\SettingsPage.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\SettingsPage.axaml",
+              "RelativeToolTip": "Verstka\\Pages\\SettingsPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T09:11:31.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfilePage.axaml.cs",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\ProfilePage.axaml.cs",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\ProfilePage.axaml.cs",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\ProfilePage.axaml.cs",
+              "RelativeToolTip": "Verstka\\Pages\\ProfilePage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T09:09:13.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CalendarPage.axaml.cs",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\CalendarPage.axaml.cs",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\CalendarPage.axaml.cs",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\CalendarPage.axaml.cs",
+              "RelativeToolTip": "Verstka\\Pages\\CalendarPage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T08:58:48.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProfilePage.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\ProfilePage.axaml",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\ProfilePage.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\ProfilePage.axaml",
+              "RelativeToolTip": "Verstka\\Pages\\ProfilePage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T09:01:41.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectsPage.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\ProjectsPage.axaml",
+              "RelativeDocumentMoniker": "Verstka\\Pages\\ProjectsPage.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Pages\\ProjectsPage.axaml",
+              "RelativeToolTip": "Verstka\\Pages\\ProjectsPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T09:11:27.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.axaml",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\App.axaml",
+              "RelativeDocumentMoniker": "Verstka\\App.axaml",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\App.axaml",
+              "RelativeToolTip": "Verstka\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-06T05:33:48.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Verstka\\MainWindow.axaml.cs",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Verstka\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T06:15:08.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Verstka.csproj",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\Verstka.csproj",
+              "RelativeDocumentMoniker": "Verstka\\Verstka.csproj",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\Verstka.csproj",
+              "RelativeToolTip": "Verstka\\Verstka.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-06T06:17:52.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "D:\\study4\\verstka\\Verstka\\Verstka\\App.axaml.cs",
+              "RelativeDocumentMoniker": "Verstka\\App.axaml.cs",
+              "ToolTip": "D:\\study4\\verstka\\Verstka\\Verstka\\App.axaml.cs",
+              "RelativeToolTip": "Verstka\\App.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T05:33:27.007Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

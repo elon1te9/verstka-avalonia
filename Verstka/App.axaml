@@ -1,0 +1,105 @@
+﻿<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Verstka.App"
+             RequestedThemeVariant="Light">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="AppBackgroundBrush">#F6F5FA</SolidColorBrush>
+                    <SolidColorBrush x:Key="SurfaceBrush">#FFFFFF</SolidColorBrush>
+                    <SolidColorBrush x:Key="SidebarBrush">#F7F7FA</SolidColorBrush>
+                    <SolidColorBrush x:Key="NavSelectedBrush">#E8E2F6</SolidColorBrush>
+                    <SolidColorBrush x:Key="NavSelectedTextBrush">#6347B8</SolidColorBrush>
+                    <SolidColorBrush x:Key="TextBrush">#25222B</SolidColorBrush>
+                    <SolidColorBrush x:Key="MutedTextBrush">#746F7B</SolidColorBrush>
+                    <SolidColorBrush x:Key="BorderBrush">#E5E1EC</SolidColorBrush>
+                    <SolidColorBrush x:Key="PrimaryBrush">#6C4CE6</SolidColorBrush>
+                    <SolidColorBrush x:Key="PrimarySoftBrush">#EEE9FF</SolidColorBrush>
+                    <SolidColorBrush x:Key="InfoBrush">#4B82D0</SolidColorBrush>
+                    <SolidColorBrush x:Key="InfoSoftBrush">#EAF2FF</SolidColorBrush>
+                    <SolidColorBrush x:Key="SuccessBrush">#3A9B6D</SolidColorBrush>
+                    <SolidColorBrush x:Key="SuccessSoftBrush">#E8F6EE</SolidColorBrush>
+                    <SolidColorBrush x:Key="DangerBrush">#D9435F</SolidColorBrush>
+                </ResourceDictionary>
+
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="AppBackgroundBrush">#151319</SolidColorBrush>
+                    <SolidColorBrush x:Key="SurfaceBrush">#211E27</SolidColorBrush>
+                    <SolidColorBrush x:Key="SidebarBrush">#17191D</SolidColorBrush>
+                    <SolidColorBrush x:Key="NavSelectedBrush">#6142D5</SolidColorBrush>
+                    <SolidColorBrush x:Key="NavSelectedTextBrush">#FFFFFF</SolidColorBrush>
+                    <SolidColorBrush x:Key="TextBrush">#F3F0F7</SolidColorBrush>
+                    <SolidColorBrush x:Key="MutedTextBrush">#AAA4B2</SolidColorBrush>
+                    <SolidColorBrush x:Key="BorderBrush">#37323F</SolidColorBrush>
+                    <SolidColorBrush x:Key="PrimaryBrush">#8B72F2</SolidColorBrush>
+                    <SolidColorBrush x:Key="PrimarySoftBrush">#30275A</SolidColorBrush>
+                    <SolidColorBrush x:Key="InfoBrush">#72A7F5</SolidColorBrush>
+                    <SolidColorBrush x:Key="InfoSoftBrush">#1F344F</SolidColorBrush>
+                    <SolidColorBrush x:Key="SuccessBrush">#63C995</SolidColorBrush>
+                    <SolidColorBrush x:Key="SuccessSoftBrush">#1F4034</SolidColorBrush>
+                    <SolidColorBrush x:Key="DangerBrush">#FF7188</SolidColorBrush>
+                </ResourceDictionary>
+
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <Application.Styles>
+        <FluentTheme/>
+
+        <Style Selector="Window">
+            <Setter Property="Background" Value="{DynamicResource AppBackgroundBrush}"/>
+        </Style>
+
+        <Style Selector="TextBlock">
+            <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+        </Style>
+
+        <Style Selector="TextBlock.muted">
+            <Setter Property="Foreground" Value="{DynamicResource MutedTextBrush}"/>
+        </Style>
+
+        <Style Selector="TextBlock.heading">
+            <Setter Property="FontSize" Value="26" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+
+        <Style Selector="TextBlock.section">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+        </Style>
+
+        <Style Selector="Border.card">
+            <Setter Property="Background" Value="{DynamicResource SurfaceBrush}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource BorderBrush}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="BoxShadow" Value="0 2 8 0 #10000000"/>
+        </Style>
+
+        <Style Selector="TextBox">
+            <Setter Property="MinHeight" Value="42"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="12,0" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+
+        <Style Selector="Button">
+            <Setter Property="MinHeight" Value="42" />
+            <Setter Property="Padding" Value="18,8" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
+
+        <Style Selector="Button.primary">
+            <Setter Property="Background" Value="{DynamicResource PrimaryBrush}" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+
+    </Application.Styles>
+</Application>

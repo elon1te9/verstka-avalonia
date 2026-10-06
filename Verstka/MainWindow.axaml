@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Verstka.MainWindow"
+        Title="Project Studio — Авторизация"
+        Width="900"
+        Height="600"
+        MinWidth="700"
+        MinHeight="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Border Classes="card"
+                Width="380"
+                Padding="32"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+
+            <StackPanel Spacing="14">
+                <TextBlock Text="Авторизация" 
+                           FontSize="26" 
+                           FontWeight="SemiBold" 
+                           HorizontalAlignment="Center"/>
+
+                <TextBlock Classes="muted" 
+                           Text="Войдите, чтобы продолжить" 
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,10"/>
+
+                <TextBlock Text="ФИО" />
+                <TextBox x:Name="FullNameTextBox" 
+                         PlaceholderText="Иванов Иван Иванович"/>
+
+                <TextBlock Text="Пароль" />
+                <TextBox x:Name="PasswordTextBox" 
+                         PlaceholderText="Введите пароль"
+                         PasswordChar="•"/>
+
+                <TextBlock x:Name="ErrorTextBlock"
+                           Foreground="Crimson"
+                           IsVisible="False"
+                           TextWrapping="Wrap" />
+
+                <Button Classes="primary"
+                        Content="Войти"
+                        Margin="0,8,0,0"
+                        HorizontalContentAlignment="Center"
+                        Click="LoginButton_Click"/>
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+</Window>

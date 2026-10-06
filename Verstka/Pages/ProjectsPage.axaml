@@ -1,0 +1,47 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Verstka.Pages.ProjectsPage">
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+        <StackPanel Margin="28" Spacing="14" MaxWidth="1120" HorizontalAlignment="Stretch">
+            <TextBlock Classes="heading" Text="Проекты" />
+            <Border Classes="card" Margin="0,6,0,0">
+                <StackPanel Spacing="13">
+                    <TextBlock Classes="section" Text="Активные проекты" />
+                    <Grid ColumnDefinitions="3*,2*,42" RowDefinitions="Auto,Auto">
+                        <TextBlock Text="Avalonia UI Redesign" TextTrimming="CharacterEllipsis" VerticalAlignment="Center" />
+                        <Border Grid.Column="1" CornerRadius="5" Padding="8,3" HorizontalAlignment="Left" Background="{DynamicResource PrimarySoftBrush}">
+                            <TextBlock Text="Дизайн"  FontSize="12" Foreground="{DynamicResource PrimaryBrush}"/>
+                        </Border>
+                        <TextBlock Grid.Column="2" Text="65%" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                        <ProgressBar Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1"
+                                     Value="65" Maximum="100" Height="6" Margin="0,15,0,0"
+                                     Foreground="{DynamicResource PrimaryBrush}" />
+                    </Grid>
+                    <Border Height="1" Background="{DynamicResource BorderBrush}" />
+                    <Grid ColumnDefinitions="3*,2*,42" RowDefinitions="Auto,Auto">
+                        <TextBlock Text="Мобильное приложение" TextTrimming="CharacterEllipsis" VerticalAlignment="Center" />
+                        <Border Grid.Column="1" CornerRadius="5" Padding="8,3" HorizontalAlignment="Left" Background="{DynamicResource InfoSoftBrush}">
+                            <TextBlock Text="Разработка"  FontSize="12" Foreground="{DynamicResource InfoBrush}"/>
+                        </Border>
+                        <TextBlock Grid.Column="2" Text="40%" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                        <ProgressBar Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1"
+                                     Value="40" Maximum="100" Height="6" Margin="0,15,0,0"
+                                     Foreground="{DynamicResource InfoBrush}" />
+                    </Grid>
+                    <Border Height="1" Background="{DynamicResource BorderBrush}" />
+                    <Grid ColumnDefinitions="3*,2*,42" RowDefinitions="Auto,Auto">
+                        <TextBlock Text="Корпоративный сайт" TextTrimming="CharacterEllipsis" VerticalAlignment="Center" />
+                        <Border Grid.Column="1" CornerRadius="5" Padding="8,3" HorizontalAlignment="Left" Background="{DynamicResource SuccessSoftBrush}">
+                            <TextBlock Text="Разработка"  FontSize="12" Foreground="{DynamicResource SuccessBrush}"/>
+                        </Border>
+                        <TextBlock Grid.Column="2" Text="80%" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                        <ProgressBar Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1"
+                                     Value="80" Maximum="100" Height="6" Margin="0,15,0,0"
+                                     Foreground="{DynamicResource SuccessBrush}" />
+                    </Grid>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
+
